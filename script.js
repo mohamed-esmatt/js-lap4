@@ -1,4 +1,4 @@
-/*let mywindow = window.open("", "newwin", "width=300,height=200,scrollbars=yes ")
+let mywindow = window.open("", "newwin", "width=300,height=200,scrollbars=yes ")
 mywindow.document.write("<div style='height:1000px;'></div>")
 mywindow.scrollTo(0, 1000)
 
@@ -36,7 +36,7 @@ let allBGrey = document.getElementsByClassName("BGrey")
 
 console.log("Elements with class fontBlue:", allblue);
 console.log("Elements with class BGrey:", allBGrey);
-*/
+
 
 showInfo =()=>{
     const name = document.querySelector('[name="name"]').value;
@@ -45,5 +45,5 @@ showInfo =()=>{
     const user = { name, age };
     console.log(user);
   
-    return false; // prevent reload
+    return false;
 }
